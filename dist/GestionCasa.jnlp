@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GestionCasa.jnlp">
+  <information>
+    <title>GestionCasa</title>
+    <vendor>Ary</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="GestionCasa.jar" size="504597" download="eager" />
+    <jar href="lib\BrowserLauncher2-all-1_3.jar" size="186442" download="eager" />
+    <jar href="lib\DialogBox.jar" size="14466" download="eager" />
+    <jar href="lib\controlsfx-8.20.8.jar" size="957666" download="eager" />
+    <jar href="lib\openjfx-dialogs-1.0.2.jar" size="148557" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.7.2.jar" size="3201133" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GestionCasa" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="Presentacion.Pres_AnunciosSinPros"  name="GestionCasa" />
+  <update check="always"/>
+</jnlp>

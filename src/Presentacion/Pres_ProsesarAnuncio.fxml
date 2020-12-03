@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="442.0" prefWidth="592.0" style="-fx-background-color: #E1E0D3;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane id="Pan_Prueba" layoutX="12.0" layoutY="8.0" prefHeight="25.0" prefWidth="564.0" style="-fx-background-radius: 5.0 5.0  0.0 0.0; -fx-background-color: #2A3864;">
+         <children>
+            <Label layoutX="6.0" layoutY="2.0" text="Dueño" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane fx:id="Pan_Duenio" layoutX="12.0" layoutY="34.0" prefHeight="46.0" prefWidth="564.0" style="-fx-background-color: #5370C8; -fx-background-radius: 0.0 0.0 5.0 5.0;">
+         <children>
+            <Label layoutX="8.0" layoutY="18.0" text="Nombre:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="61.0" layoutY="14.0" prefHeight="25.0" prefWidth="146.0" text="Ary Gimenez" />
+            <Label layoutX="209.0" layoutY="18.0" text="Telefono:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="265.0" layoutY="14.0" prefHeight="25.0" prefWidth="80.0" text="098559058" />
+            
+            <Label layoutX="348.0" layoutY="18.0" text="Email:" wrapText="true">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            
+            <TextField layoutX="385.0" layoutY="14.0" prefHeight="25.0" prefWidth="172.0" text="argi_prog@hotmail.com" />
+         </children>
+      </Pane>
+      <Pane id="Pan_Prueba" layoutX="12.0" layoutY="87.0" prefHeight="25.0" prefWidth="564.0" style="-fx-background-radius: 5.0 5.0  0.0 0.0; -fx-background-color: #2A3864;">
+         <children>
+            <Label layoutX="6.0" layoutY="2.0" text="Datos de anuncio" textFill="WHITE" textOverrun="CENTER_ELLIPSIS">
+               <font>
+                  <Font name="Arial" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Pane fx:id="Pan_Duenio1" layoutX="12.0" layoutY="113.0" prefHeight="282.0" prefWidth="564.0" style="-fx-background-color: #5370C8; -fx-background-radius: 0.0 0.0 5.0 5.0;">
+         <children>
+            <TextField layoutX="331.0" layoutY="15.0" prefHeight="25.0" prefWidth="42.0" text="536" />
+            <Pane id="Pan_TipoAnuncio" layoutX="3.0" layoutY="15.0" prefHeight="25.0" prefWidth="146.0" style="-fx-border-color: DFDFE0; -fx-background-color: #1E1E1E; -fx-border-style: solid; -fx-background-radius: 5.0; -fx-border-radius: 5.0;">
+               <children>
+                  <RadioButton layoutX="6.0" layoutY="3.0" mnemonicParsing="false" text="Alquiler" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </RadioButton>
+                  <RadioButton layoutX="84.0" layoutY="3.0" mnemonicParsing="false" text="Venta" textFill="WHITE">
+                     <font>
+                        <Font name="System Bold" size="12.0" />
+                     </font>
+                  </RadioButton>
+               </children>
+            </Pane>
+            <Label layoutX="281.0" layoutY="19.0" text="Cuartos:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="376.0" layoutY="18.0" text="Baños:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="420.0" layoutY="14.0" prefHeight="25.0" prefWidth="27.0" text="56" />
+            <Label layoutX="168.0" layoutY="19.0" text="Anvientes:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <TextField layoutX="232.0" layoutY="15.0" prefHeight="25.0" prefWidth="42.0" text="536" />
+            <ChoiceBox layoutX="5.0" layoutY="56.0" prefHeight="25.0" prefWidth="95.0" />
+            <TextArea layoutX="5.0" layoutY="110.0" prefHeight="158.0" prefWidth="370.0" />
+            <Label layoutX="5.0" layoutY="93.0" text="Detalle">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Pane id="Pan_Imagen" layoutX="380.0" layoutY="68.0" prefHeight="200.0" prefWidth="166.0" style="-fx-border-color: DFDFE0; -fx-border-radius: 5.0; -fx-border-style: solid;">
+               <children>
+                  <ImageView id="Img_Anuncios" fitHeight="158.0" fitWidth="166.0" pickOnBounds="true" preserveRatio="true" style="fx-background-radius: ;" />
+                  <Button id="Btn_ImagenArriba" layoutX="116.0" layoutY="165.0" mnemonicParsing="false" prefHeight="26.951171875" prefWidth="40.5" />
+                  <ChoiceBox id="ComB_Imagen" layoutX="57.0" layoutY="166.0" prefHeight="25.0" prefWidth="53.0" />
+                  <Button id="Btn_ImagenAbajo" layoutX="8.0" layoutY="165.0" mnemonicParsing="false" prefHeight="26.951171875" prefWidth="40.5" />
+               </children>
+            </Pane>
+            <Label layoutX="382.0" layoutY="51.0" text="Imagenes">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="111.0" layoutY="60.0" text="Barrio:">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Label>
+            <ComboBox editable="true" layoutX="157.0" layoutY="56.0" prefHeight="25.0" prefWidth="166.0" promptText="Costanera Norte" />
+            <Button layoutX="329.0" layoutY="56.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="34.0" />
+            <TextField layoutX="504.0" layoutY="15.0" prefHeight="25.0" prefWidth="42.0" text="536" />
+            <ChoiceBox layoutX="463.0" layoutY="14.0" nodeOrientation="RIGHT_TO_LEFT" prefHeight="25.0" prefWidth="42.0" />
+         </children>
+      </Pane>
+      <Button id="Btn_Cancelar" layoutX="516.0" layoutY="407.0" mnemonicParsing="false" text="Cancelar" />
+      <Button id="Btn_Aceptar" layoutX="12.0" layoutY="407.0" mnemonicParsing="false" text="Aceptar" />
+   </children>
+</AnchorPane>

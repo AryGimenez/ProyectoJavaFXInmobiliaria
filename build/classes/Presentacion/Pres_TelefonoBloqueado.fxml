@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="247.0" xmlns:fx="http://javafx.com/fxml">
+  <children>
+    <ListView layoutX="4.0" layoutY="22.0" prefHeight="213.0" prefWidth="237.0" />
+    <Label fx:id="Lbl_TituloAnuncios" layoutX="5.0" layoutY="6.0" prefHeight="17.0" prefWidth="237.0" text="Telefonos Bloqueados" />
+    <Pane layoutX="4.0" layoutY="248.0" prefHeight="25.0" prefWidth="237.0">
+      <children>
+        <TextField layoutX="72.0" layoutY="0.0" prefHeight="25.0" prefWidth="163.0" />
+        <Label fx:id="Lbl_TituloAnuncios11" layoutX="0.0" layoutY="0.0" prefHeight="25.0" prefWidth="71.0" text="Telefono: " />
+      </children>
+    </Pane>
+    <Pane layoutX="5.0" layoutY="286.0" prefHeight="32.0" prefWidth="237.0">
+      <children>
+        <Button layoutX="71.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="95.0" text="Buscar" />
+        <Button layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Agregar" />
+        <Button layoutX="166.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="71.0" text="Eliminar" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>

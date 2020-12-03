@@ -1,0 +1,31 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 16/02/2015, 12:02:33 AM
+    Author     : Ary
+*/
+.root{
+    -fx-background-color: black;
+    -fx-background-radius: 20.0;
+    
+    -fx-border-color: beige;
+    -fx-border-width: 5.0;
+    -fx-border-radius: 20.0;
+    
+}
+
+.Class_Paneles{
+    -fx-background-color: #0040FF;
+    -fx-background-radius: 5.0;
+    
+    -fx-border-color: beige;
+    -fx-border-radius: 5.0;
+}
+
+#Txt_Telefono{
+    -fx-background-radius: 50.0;
+}
+

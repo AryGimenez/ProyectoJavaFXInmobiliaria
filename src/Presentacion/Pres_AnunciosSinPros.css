@@ -1,0 +1,59 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26/01/2015, 09:10:30 PM
+    Author     : Ary
+*/
+
+
+.root{
+    -fx-background-image: url("../Iconos/Fondo.jpg");
+/*  -fx-background-position: center center;
+    -fx-background-repeat: repeat-x;
+    -fx-background-radius: 10.0;*/
+    -fx-background-repeat: repeat,no-repeat;
+    -fx-background-position:left top;
+    -fx-background-size: auto,100% 40%;
+}
+
+#Btn_Imagen{
+    -fx-alignment: CENTER;
+    -fx-background-color: transparent;
+    -fx-padding: 5px;
+    -fx-cursor: hand;
+}
+
+#Btn_Imagen:hover{
+    -fx-background-color: #A9C5F5;
+}
+
+#Pan_BotonesBakgroun{
+        -fx-background-color: black;
+        -fx-background-radius: 10.0 10.0 0.0 0.0;
+            -fx-opacity: 70%;
+}
+
+#Pan_BotonesBakgroun{
+    margin: 0 auto;
+}
+    
+#Pan_Botones2{
+    -fx-border-color: #D8D8D8;
+    -fx-border-radius:  10.0 10.0 0.0 0.0;
+} 
+
+
+#Pan_Detalle{
+    -fx-border-color: #D8D8D8;
+    -fx-border-radius:  10.0 0.0 10.0 10.0;
+} 
+
+#Pan_DetalleBakgrount{
+    -fx-background-color: black;
+    -fx-background-radius:  10.0 0.0 10.0 10.0;
+    -fx-opacity: 70%;
+} 
+

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.embed.swing.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox id="VB_Anuncio" fx:id="VB_Anuncio" alignment="TOP_RIGHT" prefHeight="87.0" prefWidth="257.0" styleClass="BorderP" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <ScrollPane prefHeight="200.0" prefWidth="200.0" styleClass="BorderP">
+        <content>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="68.0" prefWidth="374.0">
+               <children>
+                  <Label fx:id="Lbl_Detalle" prefHeight="70.0" prefWidth="375.0" wrapText="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="3.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+               </children>
+            </AnchorPane>
+        </content>
+         <VBox.margin>
+            <Insets left="2.0" right="2.0" top="5.0" />
+         </VBox.margin>
+      </ScrollPane>
+      <StackPane alignment="TOP_LEFT" prefHeight="3.0" prefWidth="204.0">
+         <children>
+            <Label fx:id="Lbl_Telefono" alignment="TOP_RIGHT" contentDisplay="TOP" prefHeight="20.0" prefWidth="227.0" text="098559058" textFill="WHITE" textOverrun="CLIP" StackPane.alignment="TOP_RIGHT">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <font>
+                  <Font name="Arial Narrow" size="16.0" />
+               </font>
+               <padding>
+                  <Insets right="2.0" />
+               </padding>
+            </Label>
+            <ImageView fx:id="ImgV_Url" fitHeight="22.0" fitWidth="43.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Iconos/Internet_Explorer.png" />
+               </image>
+              
+            </ImageView>
+         </children>
+      </StackPane>
+   </children>
+</VBox>
